@@ -1,0 +1,320 @@
+011-I Ketut Muliana
+-------------------
+using System;
+
+public class Logika2
+{
+    public static void Main(string[] args)
+    {
+        int nilai = 0;
+        string name = "";
+        bool status = false;
+
+        do
+        {
+            try
+            {
+                Console.Write("Name: ");
+                name = Console.ReadLine();
+                Console.Write("Nilai: ");
+                nilai = int.Parse(Console.ReadLine());
+                status = false;
+            }
+            catch
+            {
+                Console.WriteLine("SALAH INPUT!");
+                status = true;
+            }
+        } while (status);
+
+        Console.WriteLine();
+        if (nilai < 60)
+        {
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Nilai Kamu C");
+        }
+        else if (nilai < 80)
+        {
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Nilai Kamu B");
+        }
+        else
+        {
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Nilai Kamu A");
+        }
+    }
+}
+
+011-I Ketut Muliana
+-------------------
+using System;
+
+public class Logika3
+{
+    public static void Main(string[] args)
+    {
+        string username;
+        string password;
+        bool status;
+        do
+        {
+            //input
+            Console.Write("Username: ");
+            username = Console.ReadLine();
+            Console.Write("Password: ");
+            password = Console.ReadLine();
+
+            //logic
+            if (username == "ocbc" && password == "bootcamp")
+            {
+                Console.WriteLine("Anda berhasil Login!");
+                status = false;
+            }
+            else
+            {
+                Console.WriteLine("Username atau password anda salah!");
+                status = true;
+            }
+        } while (status);
+        // Console.ReadKey();
+    }
+}
+
+018 - Muchamad Muhadjir
+-------------------
+using System;
+
+public class Logic5
+{
+    public static void Main(string[] args)
+    {
+        int a;
+        string nama, ulang;
+        Console.WriteLine("Hello");
+        Console.Write("Masukkan Nama Anda: ");
+        nama=Console.ReadLine();
+        do
+        {   
+            Console.Write("Masukkan Bulan dalam bentuk angka: ");
+            a=int.Parse(Console.ReadLine());
+            Console.WriteLine("");
+            switch (a)
+            {
+                case 1:{
+                    Console.WriteLine("Bulan Januari");
+                break;}
+                case 2:{
+                    Console.WriteLine("Bulan Februari");
+                break;}
+                case 3:{
+                    Console.WriteLine("Bulan Maret");
+                break;}
+                case 4:{
+                    Console.WriteLine("Bulan April");
+                break;}
+                case 5:{
+                    Console.WriteLine("Bulan Mei");
+                break;}
+                case 6:{
+                    Console.WriteLine("Bulan Juni");
+                break;}
+                case 7:{
+                    Console.WriteLine("Bulan Juli");
+                break;}
+                case 8:{
+                    Console.WriteLine("Bulan Agustus");
+                break;}
+                case 9:{
+                    Console.WriteLine("Bulan September");
+                break;}
+                case 10:{
+                    Console.WriteLine("Bulan Oktober");
+                break;}
+                case 11:{
+                    Console.WriteLine("Bulan November");
+                break;}
+                case 12:{
+                    Console.WriteLine("Bulan Desember");
+                break;}
+                default:{
+                    Console.WriteLine("Pilihan Bulan Tidak Tersedia");
+                break;}
+            }
+            Console.Write("Apakah Anda Ingin Mengulang [Y/T]? ");
+            ulang = Console.ReadLine();
+        } while (ulang == "Y" || ulang == "y");
+    }
+}       
+
+017 - Bayu Aji Nurmansah (Logic 8)
+-----------------------------------
+using System;
+
+namespace sesi_03
+{
+    class Logic_8
+    {
+        static void Main(string[] args)
+        {
+            int awal, batas;
+            string operasi;
+            string ulang = "no";
+
+            
+            do{
+            Console.Write("Masukkan awalan looping : ");
+            awal = int.Parse(Console.ReadLine());
+
+            Console.Write("Masukkan batas looping : ");
+            batas = int.Parse(Console.ReadLine());
+
+            Console.Write("Masukkan operasi : ");
+            operasi = Console.ReadLine();
+                if(operasi == "+")
+                    {
+                        for(int i = 1; i<= batas; i++)
+                        {
+                            Console.WriteLine("nilai = {0}", i+awal);
+                        }
+
+                    }
+
+                else if(operasi == "-")
+                    {
+                        for(int i = 1; i<= batas; i++)
+                        {
+                            Console.WriteLine("nilai = {0}", i-awal);
+                        }
+                    }
+
+                else if(operasi == "*")
+                    {
+                        for(int i = 1; i<= batas; i++)
+                        {
+                            Console.WriteLine("nilai = {0}", i*awal);
+                        }
+                    }
+
+                else if(operasi == "/")
+                    {
+                        for(int i = 1; i<= batas; i++)
+                        {
+                            Console.WriteLine("nilai = {0}", i/awal);
+                        }
+                    }
+
+                Console.Write("Ulang ? y/n : ");
+                ulang = Console.ReadLine();
+                ulang = ulang.ToLower();
+            }while(ulang == "y");
+        }
+    }
+}
+-----------------------------------
+
+Logika 8 Lukas Hansel
+-----------------------
+using System;
+
+public class Logika8
+{
+    public static void Main()
+    {
+        Console.Write("Jumlah iterasi : ");
+        int imax = int.Parse(Console.ReadLine());
+        Console.Write("Angka pertama : ");
+        int a = int.Parse(Console.ReadLine());
+        Console.Write("Angka operator aritmatika : ");
+        int j = int.Parse(Console.ReadLine());
+        Console.Write("Operator : ");
+        string o = Console.ReadLine();
+        int i = 1;
+        do
+        {
+            switch(o){
+                case("tambah"):{
+                    Console.Write("i = {0}", i);
+                    Console.WriteLine(" output {0}", a);
+                    a += j;
+                    break;
+                }
+                case("kurang"):{
+                    Console.Write("i = {0}", i);
+                    Console.WriteLine(" output {0}", a);
+                    a -= j;
+                    break;
+                }
+                case("kali"):{
+                    Console.Write("i = {0}", i);
+                    Console.WriteLine(" output {0}", a);
+                    a *= j;
+                    break;
+                }
+                case("bagi"):{
+                    Console.Write("i = {0}", i);
+                    Console.WriteLine(" output {0}", a);
+                    a /= j;
+                    break;
+                }
+            };
+            i++;
+
+            if (i > 8){
+                break;
+            }
+        } while (i <= imax);
+    }
+}
+-----------------------
+
+github
+===
+//hapus git di dalam folder/project
+rm -rf .git
+
+//jika ada git di dalam folder/project
+git clean -n
+git rm --cached .
+
+change branch master to main
+---
+git checkout -b main //switch branch
+git branch -D master //delete branch
+git branch --list //list branch
+
+git commit
+---
+git init
+git remote add origin url-github
+git add . //semua file
+git add namafolder/namafile //select file
+git commit -m "first commit"
+git push origin main
+>> push to branch master
+git push origin master
+
+//jika ada update project
+git status // check update
+git add namafolder/namafile //select file
+git commit -m "first commit"
+git pull origin main //disaat pull pastikan check file
+git push origin main
+
+check git
+--
+git config --list
+git config --global --list
+git config --global user.email "email.com"
+git config --global credential.username "usergithub"
+
+cek jika permission denied unable to access
+--
+git config credential.helper
+git config credential.helper store
+git config --global credential.helper manager
+git config --global --unset credential.helper
+
+jika terjadi error di git > fatal: refusing to merge unrelated histories
+lakukan ini > git pull origin main --allow-unrelated-histories
+referensi > https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
