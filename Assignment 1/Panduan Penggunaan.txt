@@ -1,0 +1,22 @@
+cara pakai aplikasi : 
+> akan tampil menu utama dengan 5 menu yaitu :
+  1. soal 1(segitiga alfabet)
+  2. soal 2(segitiga angka)
+  3. soal 3(palindrome)
+  4. soal 4(reverse angka)
+  5. soal 5(convert angka)
+  6. soal 6(palindrome check)
+  7. exit
+> saat memilih nomor 1, akan menampilkan soal 1 yaitu segitiga alfabet dimana diminta untuk memasukkan angka lalu
+  akan memunculkan segitiga alfabet, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 2, akan menampilkan soal 2 yaitu segitiga angka dimana diminta untuk memasukkan angka lalu
+  akan memunculkan segitiga angka, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 3, akan menampilkan soal 3 yaitu faktorial dimana diminta untuk memasukkan angka lalu
+  akan memunculkan faktorial dari angka tersebut, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 4, akan menampilkan soal 4 yaitu reverse angka dimana diminta untuk memasukkan sejumlah 
+  angka lalu angka akan dibalik, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 5, akan menampilkan soal 5 yaitu convert angka dimana diminta untuk memasukkan sejumlah
+  angka lalu angka akan dieja dalam bentuk alfabet, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 6, akan menampilkan soal 6 yaitu cek palindrome dimana diminta untuk memasukkan satu kata
+  lalu akan di cek apakah kata palindrome atau tidak, setelah menampilkan hasil akan kembali lagi ke menu utama.
+> saat memilih nomor 7 akan selesai.
