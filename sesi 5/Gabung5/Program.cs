@@ -86,7 +86,7 @@ namespace Gabung5
 
         static void Link(){
             Console.WriteLine("=== Link Github ===");
-            Console.WriteLine("Link Github : ");
+            Console.WriteLine("Link Github : https://github.com/rampartblade/Bootcamp/tree/main/sesi%205");
             Console.ReadKey();
         }
         static void Main(string[] args)
