@@ -1,0 +1,65 @@
+--A
+CREATE DATABASE Staff;
+
+--B
+CREATE TABLE data_staff(
+	nik int PRIMARY KEY,
+	nama VARCHAR (50),
+	alamat VARCHAR (200),
+	handphone VARCHAR (50)
+);
+
+--C,D
+INSERT INTO data_staff (nik, nama, alamat, handphone) Values
+('1','Jimmy','Tangerang', '081234567890'),
+('2','Jimbo','Bogor', '081234567890'),
+('3','Amir','Bandung', '9856714134'),
+('4','Udin','Malang', '3652147856'),
+('5','Wumbo','Jakarta', '548673219');
+
+--E
+ALTER TABLE data_staff ADD joinDate date;
+INSERT INTO data_staff(nik, nama, alamat, handphone, joinDate) VALUES (6, 'Joni', 'Yogyakarta', '542384584', GETDATE());
+
+--F
+SELECT TOP 2 * FROM data_staff;
+
+--G
+SELECT TOP 3* FROM data_staff;
+
+--H
+CREATE TABLE staffoutsource(
+	nik int PRIMARY KEY,
+	nama varchar(50),
+	alamat varchar(200),
+	handphone varchar(15),
+	joinDate date
+);
+
+--I
+INSERT INTO staffoutsource (nik, nama, alamat, handphone, joinDate) VALUES 
+(1, 'Jimmy','Surabaya', '08125469735', GETDATE()),
+(2, 'Reyhan','Surabaya', '08125469735', '2021-03-05'),
+(3,'Bayu','Semarang', '5436887413','2021-03-05'),
+(4, 'Sinaga','Semarang', '542641234', '2021-03-06'),
+(5, 'Jimmy','Surabaya', '542534123', '2021-03-06'),
+(6, 'Jimmy','Surabaya', '45721357', '2021-10-05'),
+(7, 'Jimmy','Surabaya', '457662366', '2021-10-05'),
+(8, 'Jimmy','Surabaya', '5681373', GETDATE()),
+(9, 'Jimmy','Surabaya', '66684678', GETDATE()),
+(10, 'Jimmy','Surabaya', '686255778', GETDATE());
+
+--J
+SELECT d.*,s.* FROM data_staff d JOIN staffoutsource s on d.joinDate = s.joinDate;
+
+--K
+SELECT * FROM data_staff d RIGHT JOIN staffoutsource s on d.joinDate = s.joinDate;
+
+--L
+SELECT * FROM data_staff d LEFT JOIN staffoutsource s on d.joinDate = s.joinDate;
+
+--M
+SELECT s.* , d.* FROM data_staff d FULL JOIN staffOutSource s ON s.joinDate = d.joinDate;
+
+
+
