@@ -1,0 +1,8 @@
+|nik|nama |alamat    |handphone   |joinDate  |
+|---|-----|----------|------------|----------|
+|1  |Jimmy|Tangerang |081234567890|          |
+|2  |Jimbo|Bogor     |081234567890|          |
+|3  |Amir |Bandung   |9856714134  |          |
+|4  |Udin |Malang    |3652147856  |          |
+|5  |Wumbo|Jakarta   |548673219   |          |
+|6  |Joni |Yogyakarta|542384584   |2021-10-13|

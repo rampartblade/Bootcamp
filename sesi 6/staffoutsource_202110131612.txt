@@ -1,0 +1,12 @@
+|nik|nama  |alamat  |handphone  |joinDate  |
+|---|------|--------|-----------|----------|
+|1  |Jimmy |Surabaya|08125469735|2021-10-13|
+|2  |Reyhan|Surabaya|08125469735|2021-03-05|
+|3  |Bayu  |Semarang|5436887413 |2021-03-05|
+|4  |Sinaga|Semarang|542641234  |2021-03-06|
+|5  |Jimmy |Surabaya|542534123  |2021-03-06|
+|6  |Jimmy |Surabaya|45721357   |2021-10-05|
+|7  |Jimmy |Surabaya|457662366  |2021-10-05|
+|8  |Jimmy |Surabaya|5681373    |2021-10-13|
+|9  |Jimmy |Surabaya|66684678   |2021-10-13|
+|10 |Jimmy |Surabaya|686255778  |2021-10-13|
