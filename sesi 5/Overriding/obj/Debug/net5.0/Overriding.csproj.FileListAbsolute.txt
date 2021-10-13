@@ -1,0 +1,16 @@
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.csproj.AssemblyReference.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.AssemblyInfoInputs.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.AssemblyInfo.cs
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.exe
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.deps.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.runtimeconfig.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.runtimeconfig.dev.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\ref\Overriding.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\bin\Debug\net5.0\Overriding.pdb
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\ref\Overriding.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.pdb
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Overriding\obj\Debug\net5.0\Overriding.genruntimeconfig.cache

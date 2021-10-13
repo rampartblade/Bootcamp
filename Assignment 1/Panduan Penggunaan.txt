@@ -20,3 +20,5 @@ cara pakai aplikasi :
 > saat memilih nomor 6, akan menampilkan soal 6 yaitu cek palindrome dimana diminta untuk memasukkan satu kata
   lalu akan di cek apakah kata palindrome atau tidak, setelah menampilkan hasil akan kembali lagi ke menu utama.
 > saat memilih nomor 7 akan selesai.
+
+link github : https://github.com/rampartblade/Bootcamp/tree/main/Assignment%201

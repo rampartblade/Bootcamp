@@ -1,0 +1,16 @@
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.csproj.AssemblyReference.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.AssemblyInfoInputs.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.AssemblyInfo.cs
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.exe
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.deps.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.runtimeconfig.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.runtimeconfig.dev.json
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\ref\Gabung5.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\bin\Debug\net5.0\Gabung5.pdb
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\ref\Gabung5.dll
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.pdb
+C:\Users\Ricky\Documents\bootcamp\sesi 5\Gabung5\obj\Debug\net5.0\Gabung5.genruntimeconfig.cache
