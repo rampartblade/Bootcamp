@@ -1,0 +1,31 @@
+CREATE Database db_sesi6;
+
+CREATE TABLE tb_siswa(
+	id_siswa INT IDENTITY (1,1) primary key ,
+	nis VARCHAR (10),
+	nama VARCHAR (50),
+	alamat VARCHAR (100),
+	tgl_lahir DATE,
+	j_kelamin VARCHAR (50)
+);
+
+ALTER table tb_siswa alter column j_kelamin VARCHAR(20);
+
+SELECT ts.nis,ts.nama from tb_siswa ts;
+
+INSERT INTO tb_siswa(nis, nama, alamat, tgl_lahir, j_kelamin)
+Values('1001','Bejo', 'Surabaya', '2010-10-06', 'Pria');
+INSERT INTO tb_siswa(nis, nama, alamat, tgl_lahir, j_kelamin)
+Values('1002','Ani', 'Malang', '2010-10-06', 'Wanita');
+
+SELECT * FROM tb_siswa WHERE NIS = '1001';
+
+SELECT ts.nama, ts.tgl_lahir FROM tb_siswa ts WHERE NIS='1002';
+
+SELECT * FROM tb_siswa WHERE alamat LIKE 'SU%';
+
+SELECT * FROM tb_siswa WHERE tgl_lahir BETWEEN '10-05-2010' AND '10-10-2010';
+
+UPDATE tb_siswa SET nama ='Bejo Sutedjo' WHERE nis = '1001';
+
+DELETE tb_siswa WHERE NIS='1002';
