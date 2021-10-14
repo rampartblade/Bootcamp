@@ -1,0 +1,19 @@
+> form login > set variabel public username + nama
+> form data > tampilakn variabel public username + nama
+
+> form data
+  > view data grid > data staff
+  > validasi enable & readonly > crud (create, read, update, delete) + search (cari)
+
+
+form setelah login / form data user
+- data grid
+- validasi
+- crud + search
+- set data disaat login / tampilkan di form data user
+
+connectionString = $"SERVER={server};DATABASE={database_name};UID={user};PASSWORD={password};SSL Mode=None;";
+db.ExecuteSelect("SELECT * FROM `user_info` where username='" + textBox1.Text + "' and password='" + textBox2 + "'");
+db.ExecuteSql("INSERT INTO `user_info` (`id`, `names`, `username`, `password`) VALUES (NULL, '"+textBox1.Text+ "', '" + textBox2.Text + "', '" + textBox3.Text + "')");
+
+
