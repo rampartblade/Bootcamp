@@ -1,0 +1,14 @@
+ASP.NET Web Application (.NET Framework)
+
+WebApiTestClient
+
+Areas > Helppage >view > >help
+
+Api.cshtml
+
+@Html.DisplayForModel("TestClientDialogs")  
+@section Scripts {  
+    <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />  
+    @Html.DisplayForModel("TestClientReferences")
+
+https://www.c-sharpcorner.com/UploadFile/2b481f/adding-the-test-api-in-the-Asp-Net-web-api-help-page/
