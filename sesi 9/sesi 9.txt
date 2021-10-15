@@ -1,0 +1,7 @@
+1. Buat database kantor
+2. Buat table employee
+   - id, nama, jenis kelamin, alamat (pk id)
+3. Isi min. 5 record
+4. Buat project baru pilih dengan nama asp.net core web application dengan nama Kantor_WebAPI (MVC dan non MVC)
+5. Add reference MySqlData (nuget) bisa di downgrade bila terjadi masalah
+6. klik kanan project->add->new folder, beri nama folder models
