@@ -1,0 +1,17 @@
+Nama : Ricky Adiputra(023)
+Assignment 3
+
+Panduan Pemakaian
+1. Menyiapkan perangkat yang dibutuhkan (postman, visual studio code, command line prompt)
+2. Jalankan program assignment 3 dengan memasukkan command dotnet run
+3. Setelah dijalankan, buka aplikasi postman dan masukkan url:
+   a. GET(http://localhost:5001/api/Movie)
+      digunakan untuk mengambil data dari database
+   b. POST(http://localhost:5001/api/Movie)
+      digunakan untuk memasukkan data ke dalam database dengan format: {"name":"","genre":"","duration":"","releaseDate":""}
+   c. GET/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk mengambil data dengan id tertentu
+   d. Put/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk update/edit data di database dengan format: {"id":"","name":"","genre":"","duration":"","releaseDate":""} 
+   e. Delete/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk menghapus data di database dengan format: {"name":"","genre":"","duration":"","releaseDate":""}
