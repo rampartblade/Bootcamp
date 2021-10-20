@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 11\\With Jwt\\TodoApp\\TodoApp.csproj": {}
+    "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 10\\With Jwt\\TodoApp\\TodoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 11\\With Jwt\\TodoApp\\TodoApp.csproj": {
+    "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 10\\With Jwt\\TodoApp\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 11\\With Jwt\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 10\\With Jwt\\TodoApp\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 11\\With Jwt\\TodoApp\\TodoApp.csproj",
+        "projectPath": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 10\\With Jwt\\TodoApp\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\Ricky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 11\\With Jwt\\TodoApp\\obj\\",
+        "outputPath": "C:\\Users\\Ricky\\Documents\\bootcamp hacktiv8\\sesi 10\\With Jwt\\TodoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
