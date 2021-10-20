@@ -197,7 +197,6 @@ C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\De
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\staticwebassets\MovieApp.StaticWebAssets.xml
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\scopedcss\bundle\MovieApp.styles.css
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\MovieApp.RazorTargetAssemblyInfo.cache
-C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\MovieApp.csproj.CopyComplete
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\MovieApp.dll
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\ref\MovieApp.dll
 C:\Users\Ricky\Documents\bootcamp hacktiv8\Assignment 3\With Jwt\MovieApp\obj\Debug\net5.0\MovieApp.pdb
