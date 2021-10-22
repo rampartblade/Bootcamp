@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "a6be1000-3dd8-482e-ab66-3aca0615be08",
+		"name": "Final Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/api/AuthManagement/Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjZmZWNhZDE2LTEwOTAtNDgxNS04YWQ3LTBlZTIyNWNjY2U2OSIsImVtYWlsIjoic3Jpd2lqYXlhQGhhY2t0aXY4LmNvbSIsInN1YiI6InNyaXdpamF5YUBoYWNrdGl2OC5jb20iLCJqdGkiOiI0MWFiYjY4OC01MTdmLTQxYWMtYmE0ZS1jZjEwZGEyYjlmNjgiLCJuYmYiOjE2MzQ0NzgwODYsImV4cCI6MTYzNDQ5OTY4NiwiaWF0IjoxNjM0NDc4MDg2fQ.edUa8x0zXprRHPOfz5GuK--pSvNbld4lkOW8f3y8kK8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\" : \"test@gmail.com\",\r\n  \"email\": \"test@gmail.com\",\r\n  \"password\": \"Password1!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjZmZWNhZDE2LTEwOTAtNDgxNS04YWQ3LTBlZTIyNWNjY2U2OSIsImVtYWlsIjoic3Jpd2lqYXlhQGhhY2t0aXY4LmNvbSIsInN1YiI6InNyaXdpamF5YUBoYWNrdGl2OC5jb20iLCJqdGkiOiI0MWFiYjY4OC01MTdmLTQxYWMtYmE0ZS1jZjEwZGEyYjlmNjgiLCJuYmYiOjE2MzQ0NzgwODYsImV4cCI6MTYzNDQ5OTY4NiwiaWF0IjoxNjM0NDc4MDg2fQ.edUa8x0zXprRHPOfz5GuK--pSvNbld4lkOW8f3y8kK8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\" : \"test@gmail.com\",\r\n  \"email\": \"test@gmail.com\",\r\n  \"password\": \"Password1!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/RefreshToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjZmZWNhZDE2LTEwOTAtNDgxNS04YWQ3LTBlZTIyNWNjY2U2OSIsImVtYWlsIjoic3Jpd2lqYXlhQGhhY2t0aXY4LmNvbSIsInN1YiI6InNyaXdpamF5YUBoYWNrdGl2OC5jb20iLCJqdGkiOiI0MWFiYjY4OC01MTdmLTQxYWMtYmE0ZS1jZjEwZGEyYjlmNjgiLCJuYmYiOjE2MzQ0NzgwODYsImV4cCI6MTYzNDQ5OTY4NiwiaWF0IjoxNjM0NDc4MDg2fQ.edUa8x0zXprRHPOfz5GuK--pSvNbld4lkOW8f3y8kK8",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o\",\r\n    \"refreshToken\": \"A2NG9MSEZ71BQBGRP6EO55XQCPYQMDFJ14Of9f8d9ab-99c7-4d78-9e3e-49f3fd511405\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/AuthManagement/RefreshToken",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"AuthManagement",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/PaymentDetail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o\",\r\n    \"refreshToken\": \"A2NG9MSEZ71BQBGRP6EO55XQCPYQMDFJ14Of9f8d9ab-99c7-4d78-9e3e-49f3fd511405\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/PaymentDetail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"cardOwnerName\": \"Ridho\",\r\n        \"cardNumber\": \"77758495\",\r\n        \"expirationDate\": \"11102025\",\r\n        \"securityCode\": \"757547\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/PaymentDetail/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"cardOwnerName\": \"Ridho\",\r\n        \"cardNumber\": \"77758495\",\r\n        \"expirationDate\": \"11102025\",\r\n        \"securityCode\": \"757547\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/PaymentDetail/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"cardOwnerName\": \"Ridho\",\r\n        \"cardNumber\": \"77758495\",\r\n        \"expirationDate\": \"11102025\",\r\n        \"securityCode\": \"757547\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/AuthManagement/PaymentDetail/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjcxMTNlNGI1LWY1ZDQtNGY3YS05N2E1LWEzMTAwZjYxMjFjZiIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJzdWIiOiJ0ZXN0QGdtYWlsLmNvbSIsImp0aSI6IjE1ZGQxODhjLTFkYzUtNDFiYS04NjFjLTk4ZTNhNDEyYjcwNiIsIm5iZiI6MTYzNDgzNzc3MSwiZXhwIjoxNjM0ODU5MzcxLCJpYXQiOjE2MzQ4Mzc3NzF9.3lZTaWIkQp6mpHUmq_dZpqFwdCd7nOYvtDaqy9daM0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"paymentDetailId\" : 3,\r\n        \"cardOwnerName\": \"Ridho Ramadhan\",\r\n        \"cardNumber\": \"77758495\",\r\n        \"expirationDate\": \"11102025\",\r\n        \"securityCode\": \"757547\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
