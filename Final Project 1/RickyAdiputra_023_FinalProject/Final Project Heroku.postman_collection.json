@@ -1,0 +1,345 @@
+{
+	"info": {
+		"_postman_id": "c826cfa9-2fb1-4ea5-8b4a-4617b1e2f2ea",
+		"name": "Final Project Heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/RefreshToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiM2EzMmUxZjAtMzc3Mi00NzBlLWE3YTYtYTVhNDRlZmM2NWU0IiwibmJmIjoxNjM0ODk0ODk0LCJleHAiOjE2MzQ4OTQ5MjQsImlhdCI6MTYzNDg5NDg5NH0.zwDG7WZBSe6zlLxkazB43gD0w55aq-z59PVnOlWqvg8\",\r\n        \"refreshToken\": \"7QFE7SDO9OYQMDPMOAAZDRY9AD1YJCNPJHIfb21b200-0277-40f8-9871-c1ca6897ae9d\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/RefreshToken",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"testa@gmail.com\",\r\n    \"password\" : \"String123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"jambi@gmail.com\",\r\n    \"email\" : \"jambi@gmail.com\",\r\n    \"password\" : \"String123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Register",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"testa@gmail.com\",\r\n    \"password\" : \"String123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiZDMwMDEwMTEtZWViYS00YTNhLWIzNTAtYWY1MGMzM2Y3ZTYyIiwibmJmIjoxNjM0ODk1MTkxLCJleHAiOjE2MzQ4OTUyMjEsImlhdCI6MTYzNDg5NTE5MX0.pU-NllUasJO06IRRq3olEP5SHPe2RVlqar4SYPOUtOY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"testa@gmail.com\",\r\n    \"password\" : \"String123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiYzA2MDJlZDItOTI1OS00MWMyLThmYmItMjY0OThhNDUwOGE0IiwibmJmIjoxNjM0ODk1Mjg4LCJleHAiOjE2MzQ4OTUzMTgsImlhdCI6MTYzNDg5NTI4OH0.d8Ft4imFINe4sySSh_VqSd-pnl_NVaxEgueJqRKKZZ0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"cardOwnerName\": \"Rickja\",\r\n        \"cardNumber\": \"123456788\",\r\n        \"expirationDate\": \"12012022\",\r\n        \"securityCode\": \"556436\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiNDY5ZTEyMWMtZjhlYi00NjExLThjOTQtNzU4ZWY2ZDI2ZWVhIiwibmJmIjoxNjM0ODk1MzU1LCJleHAiOjE2MzQ4OTUzODUsImlhdCI6MTYzNDg5NTM1NX0.wQukWvzubhSG_sgWLv8yNUGXYVMnMNOrtBaLfSW9-QY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"cardOwnerName\": \"Rickja\",\r\n        \"cardNumber\": \"123456788\",\r\n        \"expirationDate\": \"12012022\",\r\n        \"securityCode\": \"556436\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/1",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiZDgzZTVkZjktMDczNC00MWUzLThiODMtZGIwYmI2OTdhNTI5IiwibmJmIjoxNjM0ODk1NTY5LCJleHAiOjE2MzQ4OTU1OTksImlhdCI6MTYzNDg5NTU2OX0.Uws-mofQewueXOMZF3smqxWWT2GoimLRhhkLW_KAdtU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"paymentDetailId\" : 5,\r\n        \"cardOwnerName\": \"Rickjal\",\r\n        \"cardNumber\": \"123456788\",\r\n        \"expirationDate\": \"12012022\",\r\n        \"securityCode\": \"556436\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/5",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMjliOTkxLTE4ZDgtNDI5My04YmRjLWI3OTM2M2I1ZTcyZSIsImVtYWlsIjoidGVzdGFAZ21haWwuY29tIiwic3ViIjoidGVzdGFAZ21haWwuY29tIiwianRpIjoiMmIyNTYyNmEtYmMwZC00ZDcwLWI4ZjItMjhjMWRiYzllYjk5IiwibmJmIjoxNjM0ODk1NzI4LCJleHAiOjE2MzQ4OTU3NTgsImlhdCI6MTYzNDg5NTcyOH0.xlraAt-EnOIhV4qjrTIEQPJG8jgNv_fZQh8aR4ioqxY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"paymentDetailId\" : 5,\r\n        \"cardOwnerName\": \"Rickjal\",\r\n        \"cardNumber\": \"123456788\",\r\n        \"expirationDate\": \"12012022\",\r\n        \"securityCode\": \"556436\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/5",
+					"protocol": "https",
+					"host": [
+						"demo-finalprojectricky",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,2 @@
+Link Github : https://github.com/rampartblade/Bootcamp/tree/main/Final%20Project/RickyAdiputra_023_FinalProject
+Link Heroku : https://demo-finalprojectricky.herokuapp.com/

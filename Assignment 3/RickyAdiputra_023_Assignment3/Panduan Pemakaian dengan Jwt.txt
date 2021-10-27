@@ -1,0 +1,22 @@
+Nama : Ricky Adiputra(023)
+Assignment 3
+link Github : https://github.com/rampartblade/Bootcamp/tree/main/RickyAdiputra_023_Assignment3
+
+Panduan Pemakaian
+1. Menyiapkan perangkat yang dibutuhkan (postman, visual studio code, command line prompt, swagger)
+2. Jalankan program assignment 3 dengan memasukkan command dotnet run
+3. Setelah dijalankan, buka aplikasi postman dan masukkan url:
+   a. http://localhost:5001/api/AuthManagement/Register(bila belum punya akun). Jika sudah ada akun bisa langsung mengakses 
+      http://localhost:5001/api/AuthManagement/Login dan anda akan mendapatkan token.
+   b. Setelah mendapat token, pilih tab Headers dan tambahkan Authorization = Bearer {token yang didapat saat login}.
+   c. Setelah itu, anda dapat melakukan action get, post, get/{id}, put/{id}, delete/{id} pada data.
+   d. GET(http://localhost:5001/api/Movie)
+      digunakan untuk mengambil data dari database
+   e. POST(http://localhost:5001/api/Movie)
+      digunakan untuk memasukkan data ke dalam database dengan format: {"name":"","genre":"","duration":"","releaseDate":""}
+   f. GET/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk mengambil data dengan id tertentu
+   g. Put/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk update/edit data di database dengan format: {"id":"","name":"","genre":"","duration":"","releaseDate":""} 
+   h. Delete/{id}(http://localhost:5001/api/Movie/(id))
+      digunakan untuk menghapus data di database dengan format: {"name":"","genre":"","duration":"","releaseDate":""}

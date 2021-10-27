@@ -1,0 +1,7 @@
+super(untuk ekspresi referensi kelas property dan constructor dari kelas)
+
+jika ngif nya false, maka ngOnDestroy akan jalan
+
+() -> melempar data dari DOM ke component
+[] -> component ke DOM
+[()] -> dua arah

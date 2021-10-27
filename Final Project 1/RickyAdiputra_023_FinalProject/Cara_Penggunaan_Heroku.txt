@@ -1,0 +1,32 @@
+======================
+Cara Penggunaan Heroku
+======================
+
+Nama        : Ricky Adiputra
+No Peserta  : 23
+Link Github : https://github.com/rampartblade/Bootcamp/tree/main/Final%20Project/RickyAdiputra_023_FinalProject
+Base Link heroku : https://demo-finalprojectricky.herokuapp.com/
+
+ 1. Buka base link heroku di Postman dengan format https://demo-finalprojectricky.herokuapp.com/api/controller
+ 2. Masukkan link postman Login atau register terlebih dahulu agar dapat mengakses link Payment detail
+    a. register : https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Register
+       lakukan register jika ingin membuat akun baru atau jika belum memiliki akun
+    b. login    : https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/Login
+       lakukan login jika sudah melakukan register atau sudah memiliki akun
+    c. refresh token : https://demo-finalprojectricky.herokuapp.com/api/AuthManagement/RefreshToken
+       lakukan refresh token untuk mengecek apakah token masih aktif atau tidak dengan memasukkan token
+       dan refresh token
+ 3. Setelah berhasil login, pilih Headers dan masukkan KEY = Authorization dan VALUE nya adalah token yang didapat
+    dengan format BEARER[Spasi]API Token contoh Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+ 4. Setelah memasukkan Token, user dapat melakukan action Payment Detail yaitu :
+    a. GET(https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail)
+       untuk mengambil data payment detail yang terdapat di database
+    b. POST(https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail)
+       untuk memasukkan data payment detail ke dalam database
+    c. GET(https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id})
+       untuk mengambil data payment detail dari database sesuai dengan id yang dimasukkan
+    d. PUT(https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id})
+       untuk melakukan edit/update data payment detail sesuai dengan id
+    c. DELETE(https://demo-finalprojectricky.herokuapp.com/api/PaymentDetail/{id})
+       untuk menghapus data payment detail di database sesuai dengan id yang dimasukkan
+

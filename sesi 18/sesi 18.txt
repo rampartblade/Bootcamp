@@ -1,0 +1,7 @@
+parent contohnya html dan head.
+sibling contohnya h2 dan div.
+
+====jquery====
+# = id
+. = class
+> = parent > child (semua element child yang merupakan child langsung dari element yang ditunjuk)

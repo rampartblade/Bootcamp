@@ -1,0 +1,13 @@
+<h1> test</h1>
+<app-button (clickEventHandler)="addCounter()" [name]='plus'></app-button>
+<app-button (clickEventHandler)="removeCounter()" [name]="minus"></app-button>
+<!-- <app-button (clickEventHandler)="deleteMsg(1)"></app-button>-->
+<p>Tombol sudah {{counter}}x di klik </p>
+<app-header></app-header>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+<app-item (newItemEvent)="addItemInParent($event)"></app-item>
+<label>Masukkan pesan :<input [(ngModel)]="message"/></label>
+
+

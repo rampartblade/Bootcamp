@@ -1,0 +1,6 @@
+node js = javascript yang memungkinkan di aplikasi
+penulisan class = Pascal case
+while -> untuk iterasi yang tidak tentu
+for -> untuk interasi yang sifatnya tentu
+var-> tipenya global
+let dan const -> scope
