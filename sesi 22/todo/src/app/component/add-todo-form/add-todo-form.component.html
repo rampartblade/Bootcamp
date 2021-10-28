@@ -1,15 +1,20 @@
-<form>
+<form [formGroup]="form.inputData" (ngSubmit)="addTodo()">
     <div class="input-group mb-3">
         <input
             type="text"
             name="inputTodo"
             placeholder="Enter todo..."
             class="form-control"
-            [(ngModel)]="inputTodo"/>
+            formControlName="inputTodo"
+           />
         <input
             type="submit"
             value="Add Todo"    
             class="btn btn-primary"
-            (click)="addTodo()"/>
+            />
     </div>
+    <span *ngIf="form.errors?.inputTodo?.required" style="color: red;">Todo list cannot be empty</span>
+    <span *ngIf="form.errors?.inputTodo?.minlength" style="color: red;">
+        Todo list should have a minimum of {{ form.errors?.inputTodo?.minlength?.requiredLength }} character(s).
+    </span>
 </form>

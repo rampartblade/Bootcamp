@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Todo } from 'src/app/models/Todo';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-todo-list',
@@ -9,8 +8,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class TodoListComponent implements OnInit {
   todos:Todo[]= [];
-  blank: string = "???";
   inputTodo: string="";
+  blank: string = "???";
 
   constructor() { }
 
@@ -28,31 +27,6 @@ export class TodoListComponent implements OnInit {
       }
     ]
   }
-
-/*   form: {
-    inputData: FormGroup
-    errors: any
-  } = {
-    inputData: new FormGroup({
-      inputTodo: new FormControl('',[
-        Validators.required,
-        Validators.minLength(3)
-      ])
-    }),
-    errors: {}
-  }
-
-  get inputTodo () {
-    return this.form.inputData.get('inputTodo')
-  }
-
-  validateForm () {
-    if(this.inputTodo?.errors)
-      this.form.errors.inputTodo = { ...this.inputTodo?.errors }
-    else
-      delete this.form.errors.inputTodo
-  } */
-
 
   toggleDone (id:number) {
     this.todos.map((v, i) =>{
@@ -73,22 +47,14 @@ export class TodoListComponent implements OnInit {
       { 
         v.status =! v.status;
         //v.content == this.inputTodo;
-        //console.log(v.content.length)
-        /* this.validateForm();
-        if(Object.keys(this.form.errors).length === 0) {
-          v.content = this.inputTodo?.value
-        } */
+        console.log(v.content.length)
         if(v.content.length == 0){
-          alert('Todo list cannot be empty')
-          v.status = true;
+          alert('Unknown Input!')
           //console.log(v.content.length)
-        }
-        else if(v.content.length < 3){
-          alert('Todo list should have a minimum of 3 character(s).')
-          v.status = true;
+          return v.content = this.blank
         }
       }
-      //console.log(this.inputTodo)
+      console.log(v)
       return v;
     })
     
