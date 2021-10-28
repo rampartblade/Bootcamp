@@ -63,7 +63,7 @@ export class AddTodoFormComponent implements OnInit {
     }; */
 
     //this.inputTodo = "";
-    console.log(this.form.inputData.get('inputTodo'))
+    //console.log(this.form.inputData.get('inputTodo'))
   }
 
   constructor() { }
